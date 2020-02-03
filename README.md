@@ -27,6 +27,6 @@ Day 2: Support user sketching with an assortment of drawing tools.
 
 Day 3: Integrate with TensorFlow JS and Magenta JS’s API and render AI sketches.
 
-Day 4: Create working save/share function. Add more drawing tools.
+Day 4: Create working save function. Add more drawing tools.
 
 Bonus: Upon finishing the above features, explore custom-training AI model that can identify drawings.
