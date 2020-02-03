@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./drawFun.css" />
+    <title>Draw Fun</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="instruction">
+        <p>
+          Start by selecting a model you like and draw a few strokes on the
+          canvas. Watch the AI finishing up the drawing for you. You can also
+          add more strokes anytime you want, the AI will pick up where you left
+          off on the canvas.
+        </p>
+      </div>
+      <div>
+        <div id="toolbar">
+          <div class="toolitem">
+            <label>Model:</label>
+            <select id="models"></select>
+          </div>
+          <div class="toolitem">
+            <label>Color:</label>
+            <input type="color" value="black" id="colorPicker" />
+          </div>
+          <div class="toolitem">
+            <button id="clearBtn">Clear</button>
+          </div>
+        </div>
+        <div id="sketch"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@magenta/sketch@0.1.3/dist/magentasketch.min.js"></script>
+  <script src="./drawFun.js"></script>
+</html>

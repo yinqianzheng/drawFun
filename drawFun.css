@@ -1,0 +1,97 @@
+body {
+  background: url(background.jpg);
+}
+
+.main-container {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  margin-top: 3%;
+  display: flex;
+}
+
+#instruction p {
+  width: 150px;
+  font-size: 20px;
+  margin: 15px;
+}
+
+#sketch {
+  width: 100%;
+}
+
+#toolbar {
+  position: relative;
+  background-color: rgba(135, 226, 254, 0.769);
+  border: 1px solid rgba(114, 217, 248, 0.769);
+  padding: 20px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#sketch canvas {
+  border: 1px solid #eeeeee;
+}
+
+.toolitem {
+  padding-left: 50px;
+}
+
+.toolitem label {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#clearBtn {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+#clearBtn:hover,
+#colorPicker:hover,
+#models:hover {
+  background-color: #8ef2ca;
+  box-shadow: 0px 15px 20px rgba(127, 218, 182, 0.4);
+  transform: translateY(-3px);
+}
+
+#colorPicker {
+  width: 140px;
+  height: 45px;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  padding: 5px 10px 5px 10px;
+  box-sizing: border-box;
+}
+
+#models {
+  font-size: 25px;
+  border: 1px solid #eeeeee;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 140px;
+  height: 45px;
+  box-sizing: border-box;
+}
