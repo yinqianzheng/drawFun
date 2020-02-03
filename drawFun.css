@@ -95,3 +95,16 @@ body {
   height: 45px;
   box-sizing: border-box;
 }
+
+.contact-links {
+  box-sizing: border-box;
+  background-color: white;
+  height: 40px;
+  border-radius: 45px;
+  margin: 0 0 10px 10px;
+}
+
+.contact-links img {
+  width: 40px;
+  display: inline-block;
+}
